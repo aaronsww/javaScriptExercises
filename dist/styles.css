@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: darkslategrey;
+    font-size: 56px;
+    padding: 20px;
+    color: white;
+}
+.mainBody{
+    display: flex;
+}
+.sidebar{
+    width: 25%;
+    background-color: aqua;
+}
+.sidebar>*:hover{
+    background-color: blueviolet;
+}
+.mainContainer{
+    width: 75%;
+    background-color: pink;
+}
