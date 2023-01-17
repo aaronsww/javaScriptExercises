@@ -21,3 +21,10 @@ body{
     width: 75%;
     background-color: pink;
 }
+#inbox-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.take-input{
+   display: none;
+} 

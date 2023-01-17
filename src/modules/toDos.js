@@ -1,7 +1,5 @@
-// import {defaultFirst} from './modules/defaultFirst';
+// import {defaultFirst} from '.defaultFirst';
 
-// function toDos(){
 
-// }
 
-// export {toDos};
+// export {getDetails};
