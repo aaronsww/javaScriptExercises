@@ -13,27 +13,25 @@ function defaultFirst(){
     mainContent.appendChild(inboxTitle);
     mainContent.appendChild(addToDo);
 
-    addToDo.addEventListener('click', createForm)
+    //addToDo.addEventListener('click', createForm) to display form to be entered
 
     console.log("hey1")
 }
 
+let a = [];
+// const toDOTitle = document.querySelector(".to-do-title");
+
 function getDetails(){
     const toDoTitle = document.getElementById("to-do-title");
-    const a = generate(toDoTitle.value);
+    a.push(generate(toDoTitle.value));
+    toDoTitle.value = '';
+    console.log(a)
 }
 
 function generate(title){
     return {
         title
     }
-}
-
-function createForm(){
-    //take away display: none
-    // const takeInput = document.getElementById("#whee");
-    // takeInput.classList.remove("take-input")
-    console.log("hey2")
 }
 
 export {defaultFirst, getDetails};

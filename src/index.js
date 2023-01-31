@@ -1,6 +1,8 @@
 
 /* append inbox and this week
     if date is within 24 hours append on "Today"  
+
+    how do I store each data entry in an array allocation?
 */
 
 import {defaultFirst, getDetails} from './modules/defaultFirst';
